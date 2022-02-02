@@ -7,7 +7,7 @@
     <title>CSS task</title>
    <!-- <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css"> -->
     <style>
-      /*task12*/
+      /*task14*/
 .silver-background{ 
     background-color: silver;
 }
@@ -50,5 +50,14 @@
           <li>other cats</li>
         </ol>
       </div>
+      <form  id="cat-photo-form" action="https://freecatphotoapp.com/submit-cat-photo">
+        <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+        <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+        <label><input type="checkbox" name="personality" checked> Loving</label>
+        <label><input type="checkbox" name="personality"> Lazy</label>
+        <label><input type="checkbox" name="personality"> Energetic</label><br>
+        <input type="text" placeholder="cat photo URL" required>
+        <button type="submit">Submit</button>
+      </form>
   </body>
 </html>
